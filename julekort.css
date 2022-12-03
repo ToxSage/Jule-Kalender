@@ -2,15 +2,14 @@
 
 #background {
     position: fixed;
-    left: -1px;
-    right: -1px;
-    top: -1px;
-    bottom: -1px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
 
-    max-width: 101%;
-    height: auto;
-
-    display: block;
+    height: 100%;
+    width: 100%;
+    
 }   
 
 .rad_1 {
