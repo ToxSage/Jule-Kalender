@@ -1,0 +1,55 @@
+
+
+#background {
+    position: fixed;
+    left: -1px;
+    right: -1px;
+    top: -1px;
+    bottom: -1px;
+
+    max-width: 101%;
+    height: auto;
+
+    display: block;
+}   
+
+.rad_1 {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 5%;
+
+    height: 15%;
+    width: 50%;
+}
+
+#dag_2 {
+    position: relative;
+    left: 0px;
+
+    max-height: 100%;
+    width: auto;
+}
+
+
+#dag_4 {
+    position: relative;
+    
+    max-height: 100%;
+    width: auto;
+}
+
+
+#dag_12 {
+    position: relative;
+
+    max-height: 50%;
+    width: auto;
+}
+
+#dag_23 {
+    position: relative;
+
+    max-height: 50%;
+    width: auto;
+}
