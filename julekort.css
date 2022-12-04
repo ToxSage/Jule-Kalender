@@ -27,7 +27,7 @@ table {
 }
 
 #rad_1 {
-    width:100%;
+    width: 100%;
 }
 
 #rad_1 > td > img {
@@ -44,36 +44,65 @@ table {
     width: auto;
 }
 
-#dag_2 {
-    position: relative;
-    display: flex;
-
-    max-height: 200px;
-    width: auto;
-}
-
-
-#dag_4 {
-    position: relative;
-    display: flex;
-
-    max-height: 200px;
-    width: auto;
-}
-
-
-#dag_12 {
+#lang_luke {
     position: relative;
     display: flex;
 
     max-height: 100px;
     width: auto;
+
+    cursor: pointer;
+    transition: box-shadow .3s;
 }
 
-#dag_23 {
+#lang_luke:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.74);
+}
+
+#vanlig_luke {
     position: relative;
     display: flex;
 
-    max-height: 100px;
+    max-height: 200px;
     width: auto;
+    
+    cursor: pointer;
+    transition: box-shadow .3s;
+}
+
+#vanlig_luke:hover {
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.74);
+}
+
+#rad_2 {
+    width: 100%;
+}
+
+#rad_2 > td > img {
+    margin: 3px;
+}
+
+
+#rad_3 {
+    width: 100%;
+}
+
+#rad_3 > td > img {
+    margin: 4.25px;
+}
+
+#rad_4 {
+    width: 100%;
+}
+
+#rad_4 > td > img {
+    margin: 10.5px;
+}
+
+#rad_5 {
+    width: 100%;
+}
+
+#rad_5 > td > img {
+    margin: 3px;
 }
