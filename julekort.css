@@ -31,7 +31,10 @@ table {
 }
 
 #rad_1 > td > img {
-    margin: 10px;
+    margin-left: 16.5px;
+    margin-right: 16.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -48,7 +51,7 @@ table {
     position: relative;
     display: flex;
 
-    max-height: 100px;
+    max-height: 95px;
     width: auto;
 
     cursor: pointer;
